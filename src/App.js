@@ -23,7 +23,6 @@ function App() {
   const [ token, setToken ] = useState(localStorage.getItem("joblyToken"));
   const [currUser, setCurrUser] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
-  console.log("currUser=", currUser)
 
   /** useEffect to check state of token.
    * If token, decode token as payload.
