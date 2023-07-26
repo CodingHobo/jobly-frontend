@@ -19,7 +19,7 @@ import "./LoginForm.css";
  */
 
 function LoginForm({ handleLogin }) {
-  const initialFormData = { username: "",
+  const initialFormData = { username: "testuser",
                             password: ""};
   const [loginData, setLoginData] = useState(initialFormData);
   const [error, setError] = useState([]);
@@ -66,7 +66,7 @@ function LoginForm({ handleLogin }) {
           <Form.Label>Password</Form.Label>
           <Form.Control
               type="password"
-              name="password"
+              name='Enter "password"'
               placeholder="Password"
               onChange={handleChange}
               value={loginData.password} />
