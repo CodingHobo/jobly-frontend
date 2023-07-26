@@ -66,8 +66,8 @@ function LoginForm({ handleLogin }) {
           <Form.Label>Password</Form.Label>
           <Form.Control
               type="password"
-              name='Enter "password"'
-              placeholder="Password"
+              name="password"
+              placeholder='Enter "password"'
               onChange={handleChange}
               value={loginData.password} />
         </Form.Group>
